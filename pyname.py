@@ -18,7 +18,7 @@ def rename(path, prefix, suffix, digits):
                 os.rename(file_path, f'{path}/{count:0{digits}d}.{ext}')
 
 def preview(path, prefix, suffix, digits):
-    print('Files rename like this:')
+    print('Files will be renamed like this:')
     for count, filename in enumerate(os.listdir(path)[:3]):
         file_path = f'{path}/{filename}'
         ext = filename.split('.')[-1]

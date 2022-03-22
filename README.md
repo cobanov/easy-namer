@@ -28,6 +28,15 @@ Do you want to rename files? (y/n) y
 | `suffix`  | `string` | **Optional**               |' '      |
 | `digits`  | `string` | **Optional**               | 3       |
 
+## Help
+```bash
+Options:
+  --path TEXT       path to folder with files
+  --prefix TEXT     prefix for files
+  --suffix TEXT     suffix for files
+  --digits INTEGER  Number of digits
+  --help            Show this message and exit.
+```
 
 ## License
 
